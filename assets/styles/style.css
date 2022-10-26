@@ -3,3 +3,38 @@ body {
   color: #151515;
   background-color: #fff;
 }
+
+#navbar {
+  border-right: solid;
+  border-color: #020a0aac;
+  width: 280px;
+  height: 100%;
+  background-color: #fff;
+  position: fixed;
+  line-height: 2;
+  left: 0px;
+  }
+  
+#navbar li {
+  list-style: none;
+  border-top: 2px solid #000000;
+  position: relative;
+  width: 100%;
+  }
+  
+#navbar a {
+  display: grid;
+  grid-row: auto;
+  text-decoration: none;
+  color: #4d4c4c;
+  padding: 10px 25px;
+  }
+  
+h1 {
+  color: #000000;
+  margin: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;  
+  }
+  
