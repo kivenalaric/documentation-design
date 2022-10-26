@@ -6,9 +6,7 @@ body {
 }
 
 #navbar {
-  border-right: solid;
-  border-color: #020a0aac;
-  width: 280px;
+  width: 300px;
   height: 100%;
   background-color: #fff;
   position: fixed;
@@ -25,7 +23,6 @@ body {
 
 #navbar a {
   display: grid;
-  grid-row: auto;
   text-decoration: none;
   color: #4d4c4c;
   padding: 10px 25px;
@@ -40,24 +37,29 @@ h1 {
 }
 
 #document {
+  border-left: solid;
+  border-color: #020a0aac;
   position: absolute;
-  margin-left: 300px;
+  margin-left: 250px;
   padding: 15px;
   margin-bottom: 100px;
 }
   
 #document h1 {
-  margin-left: -10px;
+  margin-left: 10px;
   text-align: start;
 }
   
 section article {
-  margin: 10px;
+  margin: 10px 10px 10px 40px;
   color: #4d4c4c;
-  font-size: 16px;
+  font-size: 18px;
+}
+
+section p {
+  margin: 20px 10px 10px 60px;
 }
   
 section li {
-  margin: 10px 20px 10px 2px;
+  margin: 10px 20px 10px 80px;
 }
-  
